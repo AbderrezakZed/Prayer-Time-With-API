@@ -1,0 +1,42 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+    background-image: url(../img/islamic-pat.jpg);
+    background-repeat:repeat;
+    background-size:cover;
+    height: 150vh;
+    
+}
+.ctname{
+    font-size: 110px;
+    font-weight: 400;
+    color: #490f78;
+
+}
+.dt{
+    font-size: 30px;
+    font-weight: 300;
+    color: #490f78;
+}
+.nd-cont{
+    margin-right: 40px;
+    margin-top: 100px;
+}
+.card-body{
+    color: white;
+}
+.card-title{
+    font-weight:600;
+}
+.card-text{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+@media (max-width: 576px) {
+    .ctname{
+        font-size: 70px;
+        font-weight: 400;
+    
+    }
+}

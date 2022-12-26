@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstap Test</title>
+    <!--############################################################## -->
+    <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="CSS/Style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <!--############################################################## -->
+</head>
+
+<body >
+    <div class="container-fluid">
+        <div class="nd-cont text-white">
+            <!-- City Name -->
+            <div>
+                <h1 id="city" class="ctname">بومرداس</h1>
+            </div>
+            <!-- Date -->
+            <div>
+                <h6 id="date" class="dt">السبت 17 ديسمبر</h6>
+            </div>
+        </div>
+
+        <hr style="margin: 0px 50px; border-color: #490f78;">
+        <!-- cards div Contain All Cards -->
+        <div class="card-group" style="margin: 40px 80px;">
+            <div class="card text-center ms-4" style="width: 120px; background-color: #490f78;">
+                <img src="./img/fajr.png" class="card-img-top" alt="...">
+                <h2 class="card-title bg-light pb-2">الفجر</h2>
+                <div class="card-body">
+                    <p id="fajr-time"class="card-text">04:11</p>
+                </div>
+            </div>
+            <div class="card text-center ms-4" style="width: 120px; background-color: #490f78;">
+                <img src="./img/chorouk.png" class="card-img-top" alt="...">
+                <h2 class="card-title bg-light pb-2">الشروق</h2>
+                <div class="card-body">
+                    <p id="chorouk-time" class="card-text">04:11</p>
+                </div>
+            </div>
+            <div class="card text-center ms-4" style="width: 120px; background-color: #490f78;">
+                <img class="bg-light" src="./img/dohr.png" class="card-img-top" alt="...">
+                <h2 class="card-title bg-light pb-2">الظهر</h2>
+                <div class="card-body">
+                    <p id="dohr-time" class="card-text">04:11</p>
+                </div>
+            </div>
+            <div class="card text-center ms-4" style="width: 120px; background-color: #490f78;">
+                <img  src="./img/cloud.jpg" class="card-img-top" alt="...">
+                <h2 class="card-title bg-light pb-2">العصر</h2>
+                <div class="card-body">
+                    <p id="asser-time" class="card-text">04:11</p>
+                </div>
+            </div>
+            <div class="card text-center ms-4" style="width: 120px; background-color: #490f78;">
+                <img class="bg-light" src="./img/sunset.png" class="card-img-top" alt="...">
+                <h2 class="card-title bg-light pb-2">المغرب</h2>
+                <div class="card-body">
+                    <p id="meghrb-time" class="card-text">04:11</p>
+                </div>
+            </div>
+            <div class="card text-center " style="width: 120px; background-color: #490f78;">
+                <img class="bg-light" src="./img/night.png" class="card-img-top" alt="...">
+                <h2 class="card-title bg-light pb-2">العشاء</h2>
+                <div class="card-body">
+                    <p id="ichaa-time" class="card-text">04:11</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center text-center ">
+            <select id="cities" style="width: 120px;" class="form-select text-center bg-primary text-white" aria-label="Default select example">
+
+            </select>
+        </div>
+    </div>
+
+    <!--############################################################## -->
+    <!-- Bootstrap Js File -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <!-- Axios Import -->
+    <script src="/node_modules/axios/dist/axios.min.js"></script>
+    <!-- Script File -->
+    <script src="JS/Script.js"></script>
+</body>
+
+</html>
